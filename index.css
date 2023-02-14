@@ -1,0 +1,68 @@
+@import url(./blocks/header/header.css);
+@import url(./blocks/first-section/first-section.css);
+@import url(./blocks/second-section/second-section.css);
+@import url(./blocks/third-section/third-section.css);
+@import url(./blocks/fourth-sestion/fourth-sestion.css);
+@import url(./blocks/footer/footer.css);
+
+.page {
+  max-width: 1920px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Port Lligat Sans', sans-serif;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 99px 155px 0;
+  line-height: 1.5;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  opacity: .8;
+}
+
+.popup {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  visibility: hidden;
+  opacity: 0;
+  transform: .3s all;
+}
+
+.popup_opened {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup__form {
+  position: relative;
+  width: 1110px;
+  height: 450px;
+  padding: 57px 54.62px 54.62px;
+  margin: 0 auto;
+  border: 1px solid #486958;
+  box-sizing: border-box;
+  background-color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.popup__closed {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  right: -90px;
+  top: -90px;
+  background: url(./images/close_111152.svg);
+  background-size: 100%;
+  object-fit: cover;
+  border: none;
+}

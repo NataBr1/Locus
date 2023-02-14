@@ -1,0 +1,62 @@
+
+.first-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Poppins';
+  margin-bottom: 120px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 70px;
+  color: #1C2323;
+}
+
+.first-section__title {
+  max-width: 674px;
+  margin: 0 0 50px;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 30px;
+  color: #404242;
+}
+
+.first-section__subtitle {
+  max-width: 743px;
+  margin: 0 71px 50px 0;
+}
+
+.main__button {
+  width: 271px;
+  height: 80px;
+  background: #58A9A5;
+  border: none;
+  border-radius: 20px 20px 20px 0px;
+  font-weight: 700;
+  font-size: 25px;
+  color: #FFFFFF;
+  padding: 0;
+}
+
+.button__text {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.first-section__right-wrapper {
+  max-width: 833px;
+  max-height: 782px;
+  background: url(../../images/Rectangle\ 9.png) no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-section__image {
+  max-width: 723px;
+  max-height: 723px;
+}

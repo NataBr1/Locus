@@ -1,0 +1,89 @@
+.fourth-section {
+  text-align: center;
+  margin-bottom: 21.96px;
+}
+
+.fourth-section__title {
+  font-family: 'Poppins';
+  text-align: center;
+  margin: 0 0 21.96px;
+}
+
+.brands {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 62px;
+  padding: 0;
+}
+
+.brand {
+  list-style-type: none;
+  margin-right: 90px;
+}
+.brand:last-child {
+  margin-right: 0;
+}
+
+.fourth-sestion__group {
+  display: flex;
+  margin-bottom: 240px;
+  max-width: 1612px;
+  background: #CCF0E6;
+  position: relative;
+}
+
+.progress {
+  display: flex;
+  margin: 0 0 123px;
+  padding-top: 51px;
+  padding-left: 135.5px;
+  font-family: 'Poppins';
+}
+
+.progress__item {
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 30px;
+  color: #58A9A5;
+  margin-right: 117px;
+}
+
+.progress__item:last-child {
+  margin-right: 0;
+}
+
+.fourth-sestion__quote {
+  font-weight: 600;
+  font-size: 25px;
+  color: #486958;
+  max-width: 752px;
+  padding-left: 138px;
+  font-family: 'Poppins';
+  position: relative;
+  z-index: 2;
+}
+
+.progress__value {
+  font-weight: 800;
+  font-size: 70px;
+}
+
+.autor {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 25px;
+  color: #58A9A5;
+}
+
+.quotes {
+  font-family: 'Port Lligat Sans';
+  font-weight: 400;
+  font-size: 300px;
+  color: #FFFFFF;
+  position: absolute;
+  top: -172px;
+  left: 80px;
+  z-index: -1;
+}

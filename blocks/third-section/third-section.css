@@ -1,0 +1,50 @@
+.third-section {
+  font-family: 'Poppins';
+  margin-bottom: 215px;
+}
+
+.third-section__title {
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.third-section__subtitle {
+  margin: 0 0 51px;
+  text-align: center;
+}
+
+.sticks {
+  width: 135px;
+  height: 10px;
+  border-top: 5px solid #58A9A5;
+  border-bottom: 5px solid #58A9A5;
+}
+
+.sticks_section {
+  margin: 0 auto 94px;
+}
+
+.project__group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project__images {
+  margin-bottom: 35px;
+}
+
+.project__title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #58A9A5;
+  margin: 0;
+}
+
+.project__text {
+  font-weight: 500;
+  font-size: 20px;
+  color: #486958;
+  max-width: 453px;
+  margin: 0;
+  margin-bottom: 35px;
+}

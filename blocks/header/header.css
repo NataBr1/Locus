@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 105px;
+  font-family: 'Poppins';
+}
+
+.header__logo-group {
+  display: flex;
+}
+
+.header__logo {
+  width: 37px;
+  height: 45px;
+  margin-right: 14px;
+}
+
+.header__name-company {
+  font-weight: 800;
+  font-size: 35px;
+  color: #58A9A5;
+  margin: 0 310px 0 0;
+}
+
+.header__menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header__item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 25px;
+  margin-right: 86px;
+  text-decoration: none;
+  color: #404242;
+}
+.header__item:last-child {
+  margin-right: 220px;
+}
+.header__item:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  color: #58A9A5;
+}
+
+.header__line {
+  width: 48px;
+  height: 6px;
+  background: #FEC62D;
+  border-radius: 21px;
+  border: none;
+  margin: 0 auto;
+  opacity: 0;
+}
+
+.header__item:hover .header__line {
+  opacity: 1;
+}
+
+.header__sign-up {
+  width: 271px;
+  height: 80px;
+  background: #58A9A5;
+  border: none;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 25px;
+  color: #FFFFFF;
+  padding: 0;
+}
